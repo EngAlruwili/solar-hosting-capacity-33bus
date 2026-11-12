@@ -1,0 +1,7 @@
+placement,control,baseline_feasible,largest_tested_feasible_h,next_tested_infeasible_h,capacity_mw,ceiling_reached,unresolved_points,source_pu,demand_factor,inverter_ratio,step_minutes
+distributed,unity_pf,True,0.875,0.8828125,3.250625,False,0,1.03,1.0,1.1,15
+distributed,volt_var,True,1.296875,1.3046875,4.8178906249999995,False,0,1.03,1.0,1.1,15
+upstream,unity_pf,True,1.4375,1.4453125,5.3403125,False,0,1.03,1.0,1.1,15
+upstream,volt_var,True,1.875,1.8828125,6.965624999999999,False,0,1.03,1.0,1.1,15
+remote,unity_pf,True,0.4921875,0.5,1.8284765625,False,0,1.03,1.0,1.1,15
+remote,volt_var,True,0.8125,0.8203125,3.0184375,False,5,1.03,1.0,1.1,15

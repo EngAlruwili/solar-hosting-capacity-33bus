@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:04,208
+How much solar can a distribution feeder accommodate?
+
+2
+00:00:04,208 --> 00:00:11,000
+This project uses Python and a thirty-three-bus benchmark to investigate voltage limits.
+
+3
+00:00:11,000 --> 00:00:18,625
+Before adding solar, the original feeder reached a minimum voltage of only ninety-one point three percent of nominal.
+
+4
+00:00:18,625 --> 00:00:26,042
+The solar study uses a separate operating case, with source voltage set to one point zero three per unit.
+
+5
+00:00:26,042 --> 00:00:34,708
+Four synthetic demand and solar profiles are evaluated at fifteen-minute intervals. These are not field measurements.
+
+6
+00:00:34,708 --> 00:00:43,750
+Solar is placed across the feeder, near the supply, or at remote buses. Each comparison uses the same installed capacity.
+
+7
+00:00:43,750 --> 00:00:51,667
+Volt-VAR control adjusts reactive power to support voltage, while respecting inverter capability limits.
+
+8
+00:00:51,667 --> 00:01:01,792
+For remote solar, the largest tested voltage-feasible capacity rose from about 1.83 to 3.02 megawatts with control.
+
+9
+00:01:01,792 --> 00:01:11,625
+At the same installed capacity, control reduced peak voltage, but increased total line-loss energy by about five point six percent.
+
+10
+00:01:11,625 --> 00:01:21,167
+An independent radial solver was checked against pandapower at fifty-four operating points. Automated tests also check physical behavior.
+
+11
+00:01:21,167 --> 00:01:30,958
+Sensitivity studies vary demand, source voltage, inverter size, and time resolution. The answer depends on these assumptions.
+
+12
+00:01:30,958 --> 00:01:41,208
+Some high-capacity control calculations did not converge. These remain unresolved, and are not treated as physical violations.
+
+13
+00:01:41,208 --> 00:01:52,167
+The repository includes code, tests, result tables, and an engineering report. These voltage-only findings are not utility connection approval.

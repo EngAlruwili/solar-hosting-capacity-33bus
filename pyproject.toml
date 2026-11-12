@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-hosting-capacity-33bus"
+version = "1.0.0"
+description = "Reproducible voltage-constrained solar hosting study with independently validated AC calculations"
+requires-python = ">=3.11,<3.14"
+dependencies = ["pandapower==3.3.2", "matplotlib>=3.9,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+solar-hosting = "solar_hosting.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

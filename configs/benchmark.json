@@ -1,0 +1,7 @@
+{
+  "voltage_min_pu": 0.95,
+  "voltage_max_pu": 1.05,
+  "power_balance_tolerance_mw": 0.000001,
+  "solver_voltage_tolerance_pu": 0.00001,
+  "note": "Limits are study assumptions, not benchmark operating requirements or a grid-code claim. No benchmark electrical parameters are modified."
+}

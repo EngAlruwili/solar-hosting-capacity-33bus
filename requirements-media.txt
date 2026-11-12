@@ -1,0 +1,5 @@
+# Optional; install after requirements-lock.txt. Core study needs none of these.
+piper-tts==1.8.0
+imageio-ffmpeg==0.8.1
+arabic-reshaper==3.1.0
+python-bidi==0.6.12

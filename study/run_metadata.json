@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-12T04:29:54.180987+00:00",
+  "python": "3.12.14",
+  "versions": {
+    "pandapower": "3.3.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "study_source_sha256": "22236c2597ff0bd6c83feb5d30a5d1e27d6000fdcb3d4a62647d92473528fb2a",
+  "assumptions": {
+    "source_pu": 1.03,
+    "voltage_band": [
+      0.95,
+      1.05
+    ],
+    "inverter_ratio": 1.1,
+    "sweep_step_h": 0.25,
+    "refinement_h": 0.01,
+    "ceiling_h": 4,
+    "minutes": 15,
+    "night_q": false,
+    "control": "local Volt-VAR, active-power priority, 0.99\u20131.01 deadband, saturation at 0.95/1.05",
+    "profile_source": "deterministic synthetic formulas in profiles(); no measured data"
+  },
+  "validation_cases": 54,
+  "max_voltage_error_pu": 3.01416669401533e-11
+}

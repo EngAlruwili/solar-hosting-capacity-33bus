@@ -1,0 +1,93 @@
+[
+  {
+    "start": 0,
+    "end": 4.208333333333333,
+    "english": "How much solar can a distribution feeder accommodate?",
+    "arabic": "كم طاقة شمسية تستطيع شبكة التوزيع استيعابها؟",
+    "heading": "THE QUESTION"
+  },
+  {
+    "start": 4.208333333333333,
+    "end": 11.0,
+    "english": "This project uses Python and a thirty-three-bus benchmark to investigate voltage limits.",
+    "arabic": "نستخدم بايثون ونموذج شبكة من ثلاث وثلاثين نقطة لدراسة حدود الجهد.",
+    "heading": "A REPRODUCIBLE STUDY"
+  },
+  {
+    "start": 11.0,
+    "end": 18.625,
+    "english": "Before adding solar, the original feeder reached a minimum voltage of only ninety-one point three percent of nominal.",
+    "arabic": "قبل إضافة الطاقة الشمسية، بلغ أقل جهد في الشبكة الأصلية نحو واحد وتسعين فاصلة ثلاثة بالمئة من قيمته الاسمية.",
+    "heading": "CHECK THE STARTING POINT"
+  },
+  {
+    "start": 18.625,
+    "end": 26.041666666666668,
+    "english": "The solar study uses a separate operating case, with source voltage set to one point zero three per unit.",
+    "arabic": "لدراسة الطاقة الشمسية، استخدمنا حالة تشغيل منفصلة بجهد مصدر مقداره واحد فاصلة صفر ثلاثة من القيمة الاسمية.",
+    "heading": "MAKE ASSUMPTIONS VISIBLE"
+  },
+  {
+    "start": 26.041666666666668,
+    "end": 34.708333333333336,
+    "english": "Four synthetic demand and solar profiles are evaluated at fifteen-minute intervals. These are not field measurements.",
+    "arabic": "اختبرنا أربعة أنماط افتراضية للأحمال والشمس كل خمس عشرة دقيقة. هذه ليست قياسات ميدانية.",
+    "heading": "FOUR SYNTHETIC DAYS"
+  },
+  {
+    "start": 34.708333333333336,
+    "end": 43.75,
+    "english": "Solar is placed across the feeder, near the supply, or at remote buses. Each comparison uses the same installed capacity.",
+    "arabic": "وزّعنا الطاقة الشمسية عبر الشبكة، أو قرب المصدر، أو عند الأطراف، مع تثبيت السعة عند المقارنة.",
+    "heading": "LOCATION MATTERS"
+  },
+  {
+    "start": 43.75,
+    "end": 51.666666666666664,
+    "english": "Volt-VAR control adjusts reactive power to support voltage, while respecting inverter capability limits.",
+    "arabic": "يعدّل التحكم بالعاكس القدرة غير الفعالة لدعم الجهد، مع الالتزام بحدود قدرة العاكس.",
+    "heading": "SMART-INVERTER CONTROL"
+  },
+  {
+    "start": 51.666666666666664,
+    "end": 61.791666666666664,
+    "english": "For remote solar, the largest tested voltage-feasible capacity rose from about 1.83 to 3.02 megawatts with control.",
+    "arabic": "عند أطراف الشبكة، ارتفعت أكبر سعة مختبرة ضمن حدود الجهد من نحو واحد فاصلة ثلاثة وثمانين إلى ثلاثة فاصلة صفر اثنين ميجاواط.",
+    "heading": "THE REMOTE-SOLAR RESULT"
+  },
+  {
+    "start": 61.791666666666664,
+    "end": 71.625,
+    "english": "At the same installed capacity, control reduced peak voltage, but increased total line-loss energy by about five point six percent.",
+    "arabic": "عند السعة نفسها، خفّض التحكم أعلى جهد، لكنه زاد طاقة الفواقد في الخطوط بنحو خمسة فاصلة ستة بالمئة.",
+    "heading": "UNDERSTAND THE TRADEOFF"
+  },
+  {
+    "start": 71.625,
+    "end": 81.16666666666667,
+    "english": "An independent radial solver was checked against pandapower at fifty-four operating points. Automated tests also check physical behavior.",
+    "arabic": "قارنّا طريقة حساب مستقلة مع بانداباور عند أربع وخمسين حالة تشغيل، وأضفنا اختبارات تلقائية للسلوك الكهربائي.",
+    "heading": "CHECK THE CALCULATIONS"
+  },
+  {
+    "start": 81.16666666666667,
+    "end": 90.95833333333334,
+    "english": "Sensitivity studies vary demand, source voltage, inverter size, and time resolution. The answer depends on these assumptions.",
+    "arabic": "اختبرنا أثر تغيّر الأحمال وجهد المصدر وحجم العاكس ودقة الزمن. النتيجة تعتمد على هذه الافتراضات.",
+    "heading": "TEST THE ASSUMPTIONS"
+  },
+  {
+    "start": 90.95833333333334,
+    "end": 101.20833333333334,
+    "english": "Some high-capacity control calculations did not converge. These remain unresolved, and are not treated as physical violations.",
+    "arabic": "بعض حسابات التحكم عند السعات العالية لم تتقارب. بقيت حالات غير محسومة، ولم نعتبرها تجاوزات كهربائية.",
+    "heading": "KNOW THE LIMITS"
+  },
+  {
+    "start": 101.20833333333334,
+    "end": 112.16666666666667,
+    "english": "The repository includes code, tests, result tables, and an engineering report. These voltage-only findings are not utility connection approval.",
+    "arabic": "المشروع يتضمن الكود والاختبارات والنتائج والتقرير. النتائج تخص الجهد فقط، وليست موافقة على الربط بالشبكة.",
+    "heading": "ENGINEERING YOU CAN INSPECT"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "case": "Unmodified Baran-Wu case33bw; no solar; fixed original source voltage",
+  "created_utc": "2026-11-09T23:08:57.437753+00:00",
+  "python": "3.12.14",
+  "versions": {
+    "pandapower": "3.3.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.11.2"
+  },
+  "configuration": {
+    "voltage_min_pu": 0.95,
+    "voltage_max_pu": 1.05,
+    "power_balance_tolerance_mw": 1e-06,
+    "solver_voltage_tolerance_pu": 1e-05,
+    "note": "Limits are study assumptions, not benchmark operating requirements or a grid-code claim. No benchmark electrical parameters are modified."
+  },
+  "config_sha256": "aabc5f7afa7c00ec0a1cf72ef15e507e56f71f1a53c515103d84610014058102",
+  "bus_count": 33,
+  "active_line_count": 32,
+  "load_mw": 3.715,
+  "load_mvar": 2.3,
+  "source_mw": 3.917677126455885,
+  "line_losses_kw": 202.67712645594622,
+  "minimum_voltage_pu": 0.9130904793610601,
+  "maximum_voltage_pu": 1.0,
+  "minimum_voltage_source_bus": "18",
+  "undervoltage_bus_count": 21,
+  "overvoltage_bus_count": 0,
+  "baseline_voltage_feasible": false,
+  "validation": {
+    "power_balance_residual_mw": -6.089573290068984e-14,
+    "max_solver_voltage_difference_pu": 1.018553019704882e-10,
+    "two_bus": {
+      "approximate_drop_pu": 0.00032444115011892014,
+      "simulated_drop_pu": 0.00032455029921307776,
+      "drop_relative_error": 0.00033642185683789246,
+      "independent_loss_mw": 2.8968934094122904e-05,
+      "simulated_loss_mw": 2.896893409411183e-05
+    },
+    "passed": true
+  }
+}

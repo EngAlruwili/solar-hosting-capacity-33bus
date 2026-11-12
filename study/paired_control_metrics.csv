@@ -1,0 +1,3 @@
+control,h,feasible,min_voltage_pu,max_voltage_pu,limiting_bus,limiting_day,limiting_hour,violation_hours,violation_bus_hours,four_day_loss_kwh,peak_current_a,peak_import_mw,peak_export_mw,reverse_flow_hours,peak_abs_q_mvar,control_iterations,q_residual_mvar
+unity_pf,0.4921875,True,0.9638674634965225,1.0496283330278464,18,low_demand,12.0,0.0,0.0,4254.543229431656,161.02907509912512,3.089777562069878,0.4561038588931014,4.5,0.0,1,0.0
+volt_var,0.4921875,True,0.9638674634965225,1.0376247331458186,18,low_demand,12.0,0.0,0.0,4493.598026636714,161.02907509912512,3.089777562069878,0.4427274768347853,4.0,0.266101282214259,38,9.441325814207868e-07
